@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="author" content="" />
+		<link rel="shortcut icon" href="favicon.png" />
+
+		<meta name="description" content="" />
+		<meta name="keywords" content="bootstrap, bootstrap4" />
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<link href="css/tiny-slider.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/loader.css" rel="stylesheet" />
+		<title>Blog - Furni</title>
+	</head>
+
+	<body>
+		<!-- Loader -->
+		<div class="loader-wrapper">
+			<span class="loader"></span>
+		</div>
+
+		<!-- Start Header/Navigation -->
+		<nav
+			class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
+			arial-label="Furni navigation bar"
+		>
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Furni<span>.</span></a>
+
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarsFurni"
+					aria-controls="navbarsFurni"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li><a class="nav-link" href="shop.html">Shop</a></li>
+						<li><a class="nav-link" href="about.html">About us</a></li>
+						<li><a class="nav-link" href="services.html">Services</a></li>
+						<li class="active">
+							<a class="nav-link" href="blog.html">Blog</a>
+						</li>
+						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+					</ul>
+
+					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+						<!-- <li>
+							<a class="nav-link" href="#"><img src="images/user.svg" /></a>
+						</li> -->
+						<li>
+							<a class="nav-link" href="cart.html"
+								><img src="images/cart.svg"
+							/></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- End Header/Navigation -->
+
+		<!-- Start Hero Section -->
+		<div class="hero">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-5">
+						<div class="intro-excerpt">
+							<h1>Blog</h1>
+							<p class="mb-4">
+								Discover the latest trends in furniture design, expert tips for
+								home decoration, and inspiring stories from our design
+								community. Stay updated with our insights on creating beautiful
+								living spaces.
+							</p>
+							<p>
+								<a href="shop.html" class="btn btn-secondary me-2">Shop Now</a
+								><a href="#blog-section" class="btn btn-white-outline"
+									>Read More</a
+								>
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="hero-img-wrap">
+							<img src="images/couch.png" class="img-fluid" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Hero Section -->
+
+		<!-- Start Blog Section -->
+		<div class="blog-section" id="blog-section" style="padding-bottom: 1rem">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h2 class="section-title">Recent Blog</h2>
+					</div>
+					<div class="col-md-6 text-start text-md-end">
+						<a href="./blog.html" class="more">View All Posts</a>
+					</div>
+				</div>
+
+				<div class="row">
+					<!-- Blog posts will be loaded dynamically -->
+				</div>
+			</div>
+		</div>
+		<!-- End Blog Section -->
+
+		<!-- Start Testimonial Slider -->
+		<div class="testimonial-section before-footer-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 mx-auto text-center">
+						<h2 class="section-title">Testimonials</h2>
+					</div>
+				</div>
+
+				<div class="row justify-content-center">
+					<div class="col-lg-12">
+						<div class="testimonial-slider-wrap text-center">
+							<div id="testimonial-nav">
+								<span class="prev" data-controls="prev"
+									><span class="fa fa-chevron-left"></span
+								></span>
+								<span class="next" data-controls="next"
+									><span class="fa fa-chevron-right"></span
+								></span>
+							</div>
+
+							<div class="testimonial-slider">
+								<div class="item">
+									<div class="row justify-content-center">
+										<div class="col-lg-8 mx-auto">
+											<div class="testimonial-block text-center">
+												<blockquote class="mb-5">
+													<p>
+														&ldquo;The custom design service transformed our
+														living room completely. The team's attention to
+														detail and understanding of our style preferences
+														made the process enjoyable and stress-free.&rdquo;
+													</p>
+												</blockquote>
+
+												<div class="author-info">
+													<div class="author-pic">
+														<img
+															src="images/person-1.png"
+															alt="Sarah Johnson"
+															class="img-fluid"
+														/>
+													</div>
+													<h3 class="font-weight-bold">Sarah Johnson</h3>
+													<span class="position d-block mb-3"
+														>Interior Designer, Modern Spaces</span
+													>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- END item -->
+
+								<div class="item">
+									<div class="row justify-content-center">
+										<div class="col-lg-8 mx-auto">
+											<div class="testimonial-block text-center">
+												<blockquote class="mb-5">
+													<p>
+														&ldquo;I was impressed by the quality of materials
+														and craftsmanship. The furniture has held up
+														beautifully over the years, and the customer service
+														is always exceptional.&rdquo;
+													</p>
+												</blockquote>
+
+												<div class="author-info">
+													<div class="author-pic">
+														<img
+															src="images/person-1.png"
+															alt="Michael Chen"
+															class="img-fluid"
+														/>
+													</div>
+													<h3 class="font-weight-bold">Michael Chen</h3>
+													<span class="position d-block mb-3"
+														>Homeowner, New York</span
+													>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- END item -->
+
+								<div class="item">
+									<div class="row justify-content-center">
+										<div class="col-lg-8 mx-auto">
+											<div class="testimonial-block text-center">
+												<blockquote class="mb-5">
+													<p>
+														&ldquo;As a small business owner, I needed office
+														furniture that was both professional and
+														comfortable. Furni delivered exactly what we needed,
+														and the installation service was top-notch.&rdquo;
+													</p>
+												</blockquote>
+
+												<div class="author-info">
+													<div class="author-pic">
+														<img
+															src="images/person-1.png"
+															alt="Emma Rodriguez"
+															class="img-fluid"
+														/>
+													</div>
+													<h3 class="font-weight-bold">Emma Rodriguez</h3>
+													<span class="position d-block mb-3"
+														>CEO, TechStart Solutions</span
+													>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- END item -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Testimonial Slider -->
+
+		<!-- Start Footer Section -->
+		<footer class="footer-section">
+			<div class="container relative">
+				<div class="sofa-img">
+					<img src="images/sofa.png" alt="Image" class="img-fluid" />
+				</div>
+
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="subscription-form">
+							<h3 class="d-flex align-items-center">
+								<span class="me-1"
+									><img
+										src="images/envelope-outline.svg"
+										alt="Image"
+										class="img-fluid" /></span
+								><span>Subscribe to Newsletter</span>
+							</h3>
+
+							<form id="newsletterForm" action="#" class="row g-3" novalidate>
+								<div class="col-auto">
+									<input
+										type="text"
+										class="form-control"
+										id="name"
+										placeholder="Enter your name"
+										required
+									/>
+									<div class="invalid-feedback">Please enter your name.</div>
+								</div>
+								<div class="col-auto">
+									<input
+										type="email"
+										class="form-control"
+										id="email"
+										placeholder="Enter your email"
+										required
+									/>
+									<div class="invalid-feedback">
+										Please enter a valid email address.
+									</div>
+								</div>
+								<div class="col-auto">
+									<button type="submit" class="btn btn-primary">
+										<span class="fa fa-paper-plane"></span>
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="row g-5 mb-5">
+					<div class="col-lg-4">
+						<div class="mb-4 footer-logo-wrap">
+							<a href="./index.html" class="footer-logo">Furni<span>.</span></a>
+						</div>
+						<p class="mb-4">
+							Crafting quality furniture since 2010. Sustainable materials,
+							expert design, and exceptional service.
+						</p>
+
+						<ul class="list-unstyled custom-social">
+							<li>
+								<a
+									href="https://ahmedmaher-portfolio.vercel.app/"
+									target="_blank"
+								>
+									<span class="fa-solid fa-globe"></span>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/ahmed-maher-algohary"
+									><span class="fa fa-brands fa-linkedin"></span
+								></a>
+							</li>
+							<li>
+								<a href="https://github.com/Ahmed-Maher77" target="_blank"
+									><span class="fa fa-brands fa-github"></span
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://web.facebook.com/profile.php?id=100012154268952"
+									><span class="fa fa-brands fa-facebook-f"></span
+								></a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-8">
+						<div class="row links-wrap">
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="./about.html">About us</a></li>
+									<li><a href="./services.html">Services</a></li>
+									<li><a href="./blog.html">Blog</a></li>
+									<li><a href="./contact.html">Contact us</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Support</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Knowledge base</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Live chat</a
+										>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/">Jobs</a>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Our team</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Leadership</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Privacy Policy</a
+										>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Nordic Chair</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Kruzo Aero</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Ergonomic Chair</a
+										>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="border-top copyright">
+					<div class="row pt-4">
+						<div class="col-lg-6">
+							<p class="mb-2 text-center text-lg-start">
+								Copyright &copy;
+								<script>
+									document.write(new Date().getFullYear());
+								</script>
+								. All Rights Reserved. &mdash; Designed with love by
+								<a
+									class="developer-portfolio"
+									href="https://ahmedmaher-portfolio.vercel.app/"
+									>Ahmed Maher</a
+								>
+							</p>
+						</div>
+
+						<div class="col-lg-6 text-center text-lg-end">
+							<ul class="list-unstyled d-inline-flex ms-auto">
+								<li class="me-4">
+									<a href="https://ahmedmaher-portfolio.vercel.app/"
+										>Terms &amp; Conditions</a
+									>
+								</li>
+								<li>
+									<a href="https://ahmedmaher-portfolio.vercel.app/"
+										>Privacy Policy</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Section -->
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/cart.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/loader.js"></script>
+	</body>
+</html>

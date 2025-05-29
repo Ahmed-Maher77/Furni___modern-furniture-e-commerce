@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="author" content="" />
+		<link rel="shortcut icon" href="favicon.png" />
+
+		<meta name="description" content="" />
+		<meta name="keywords" content="bootstrap, bootstrap4" />
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<link href="css/tiny-slider.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<style>
+			.blog-post-section {
+				padding: 3.5rem 0 7rem 0;
+			}
+			.post-header {
+				margin-bottom: 2rem;
+			}
+			.post-title {
+				font-size: 2.5rem;
+				font-weight: 700;
+				margin-bottom: 1rem;
+				color: #2f2f2f;
+			}
+			.post-meta {
+				color: #6c757d;
+				font-size: 0.9rem;
+			}
+			.post-meta span {
+				margin-right: 1rem;
+			}
+			.post-meta a {
+				color: #2f2f2f;
+				text-decoration: none;
+			}
+			.post-meta a:hover {
+				color: #7971ea;
+			}
+			.post-image {
+				margin-bottom: 2rem;
+				border-radius: 8px;
+				overflow: hidden;
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+			}
+			.post-content {
+				font-size: 1.1rem;
+				line-height: 1.8;
+				color: #4a4a4a;
+			}
+			.post-content p {
+				margin-bottom: 1.5rem;
+			}
+			.post-content h2 {
+				font-size: 1.8rem;
+				font-weight: 600;
+				margin: 2rem 0 1rem;
+				color: #2f2f2f;
+			}
+			.post-content ul {
+				margin-bottom: 1.5rem;
+				padding-left: 1.5rem;
+			}
+			.post-content ul li {
+				margin-bottom: 0.5rem;
+			}
+			.blockquote {
+				border-left: 4px solid #7971ea;
+				padding: 1rem 2rem;
+				margin: 2rem 0;
+				background: #f8f9fa;
+				border-radius: 0 8px 8px 0;
+			}
+			.blockquote p {
+				font-size: 1.2rem;
+				font-style: italic;
+				margin-bottom: 0.5rem;
+			}
+			.blockquote-footer {
+				color: #6c757d;
+				margin-top: 1.1rem;
+			}
+			.lead {
+				font-size: 1.3rem;
+				font-weight: 400;
+				color: #2f2f2f;
+				margin-bottom: 2rem;
+			}
+			.back-to-blog {
+				display: inline-flex;
+				align-items: center;
+				color: #7971ea;
+				text-decoration: none;
+				margin-bottom: 2rem;
+				font-weight: 500;
+			}
+			.back-to-blog i {
+				margin-right: 0.5rem;
+			}
+			.back-to-blog:hover {
+				color: #5a52c5;
+			}
+			.share-buttons {
+				margin-top: 3rem;
+				padding-top: 2rem;
+				border-top: 1px solid #e9ecef;
+			}
+			.share-buttons h3 {
+				font-size: 1.2rem;
+				margin-bottom: 1rem;
+			}
+			.share-buttons .btn {
+				margin-right: 0.5rem;
+				padding: 0.5rem 1rem;
+			}
+			.share-buttons .btn i {
+				margin-right: 0.5rem;
+			}
+		</style>
+		<title>Blog Post - Furni</title>
+	</head>
+
+	<body>
+		<!-- Start Header/Navigation -->
+		<nav
+			class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
+			arial-label="Furni navigation bar"
+		>
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Furni<span>.</span></a>
+
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarsFurni"
+					aria-controls="navbarsFurni"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li><a class="nav-link" href="shop.html">Shop</a></li>
+						<li><a class="nav-link" href="about.html">About us</a></li>
+						<li><a class="nav-link" href="services.html">Services</a></li>
+						<li class="active">
+							<a class="nav-link" href="blog.html">Blog</a>
+						</li>
+						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+					</ul>
+
+					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+						<!-- <li>
+							<a class="nav-link" href="#"><img src="images/user.svg" /></a>
+						</li> -->
+						<li>
+							<a class="nav-link" href="cart.html"
+								><img src="images/cart.svg"
+							/></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- End Header/Navigation -->
+
+		<!-- Start Blog Post Section -->
+		<div class="blog-post-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-9 mx-auto">
+						<a href="blog.html" class="back-to-blog">
+							<i class="fas fa-arrow-left"></i> Back to Blog
+						</a>
+						<div class="blog-post-content">
+							<!-- Post content will be loaded dynamically -->
+							<div class="post-header mb-4">
+								<h1 class="post-title"></h1>
+								<div class="post-meta">
+									<span class="post-author"></span>
+									<span class="post-date"></span>
+								</div>
+							</div>
+							<div
+								class="post-image mb-4"
+								style="max-width: 100%; max-height: 350px"
+							>
+								<img
+									src=""
+									alt=""
+									class="d-block w-100 h-100"
+									style="object-fit: cover"
+								/>
+							</div>
+							<div class="post-content">
+								<!-- Post content will be loaded here -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Blog Post Section -->
+
+		<!-- Start Footer Section -->
+		<footer class="footer-section">
+			<div class="container relative">
+				<div class="sofa-img">
+					<img src="images/sofa.png" alt="Image" class="img-fluid" />
+				</div>
+
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="subscription-form">
+							<h3 class="d-flex align-items-center">
+								<span class="me-1"
+									><img
+										src="images/envelope-outline.svg"
+										alt="Image"
+										class="img-fluid" /></span
+								><span>Subscribe to Newsletter</span>
+							</h3>
+
+							<form action="#" class="row g-3">
+								<div class="col-auto">
+									<input
+										type="text"
+										class="form-control"
+										placeholder="Enter your name"
+									/>
+								</div>
+								<div class="col-auto">
+									<input
+										type="email"
+										class="form-control"
+										placeholder="Enter your email"
+									/>
+								</div>
+								<div class="col-auto">
+									<button class="btn btn-primary">
+										<span class="fa fa-paper-plane"></span>
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="row g-5 mb-5">
+					<div class="col-lg-4">
+						<div class="mb-4 footer-logo-wrap">
+							<a href="./index.html" class="footer-logo">Furni<span>.</span></a>
+						</div>
+						<p class="mb-4">
+							Crafting quality furniture since 2010. Sustainable materials,
+							expert design, and exceptional service.
+						</p>
+
+						<ul class="list-unstyled custom-social">
+							<li>
+								<a
+									href="https://ahmedmaher-portfolio.vercel.app/"
+									target="_blank"
+								>
+									<span class="fa-solid fa-globe"></span>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/ahmed-maher-algohary"
+									><span class="fa fa-brands fa-linkedin"></span
+								></a>
+							</li>
+							<li>
+								<a href="https://github.com/Ahmed-Maher77" target="_blank"
+									><span class="fa fa-brands fa-github"></span
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://web.facebook.com/profile.php?id=100012154268952"
+									><span class="fa fa-brands fa-facebook-f"></span
+								></a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-8">
+						<div class="row links-wrap">
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li><a href="./about.html">About us</a></li>
+									<li><a href="./services.html">Services</a></li>
+									<li><a href="./blog.html">Blog</a></li>
+									<li><a href="./contact.html">Contact us</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Support</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Knowledge base</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Live chat</a
+										>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/">Jobs</a>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Our team</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Leadership</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Privacy Policy</a
+										>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-6 col-md-3">
+								<ul class="list-unstyled">
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Nordic Chair</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Kruzo Aero</a
+										>
+									</li>
+									<li>
+										<a href="https://ahmedmaher-portfolio.vercel.app/"
+											>Ergonomic Chair</a
+										>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="border-top copyright">
+					<div class="row pt-4">
+						<div class="col-lg-6">
+							<p class="mb-2 text-center text-lg-start">
+								Copyright &copy;
+								<script>
+									document.write(new Date().getFullYear());
+								</script>
+								. All Rights Reserved. &mdash; Designed with love by
+								<a href="https://ahmedmaher-portfolio.vercel.app/"
+									>Ahmed Maher</a
+								>
+							</p>
+						</div>
+
+						<div class="col-lg-6 text-center text-lg-end">
+							<ul class="list-unstyled d-inline-flex ms-auto">
+								<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Section -->
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/cart.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+</html>
