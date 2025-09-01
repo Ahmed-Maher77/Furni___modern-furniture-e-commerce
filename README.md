@@ -70,8 +70,8 @@
 
 ## 👀 Website Preview
 
-<a href="website-url" title="demo">
-  <img src="" alt="website preview" width="400">
+<a href="https://ahmed-maher77.github.io/Furni___modern-furniture-e-commerce/" title="demo">
+  <img src="https://github.com/user-attachments/assets/5f73425e-b24c-41a0-b48b-591f8233e2e6" alt="website preview - UI Mockup" width="400">
 </a>
 
 
